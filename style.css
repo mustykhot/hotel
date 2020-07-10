@@ -114,6 +114,133 @@ header{
 
 }
 
+section.first{
+  width: 90%;
+  margin: auto;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+.first_first{
+  width: 50%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.box_first,.box_second{
+  width: 46%;
+}
+.box_second{
+  margin-top: 70px;
+}
+.first_second{
+  width: 46%;
+}
+.div_box{
+  width: 100%;
+ 
+}
+.div_box.two{
+  margin-top: 30px;
+}
+.img_cont{
+  width: 100%;
+}
+.img_cont img{
+  width: 100%;
+  height: 100%;
+}
+.div_box_text{
+  width: 100%;
+  margin-top: -6px;
+  background: #FFFFFF;
+  box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+.text_cont{
+  width: 90%;
+  margin: auto;
+  padding-top: 18px;
+}
+.flex_text{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ona p{
+  color: #FF6F30;
+  font-size: 14px;
+  font-weight: 600;
+}
+.towa p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.tra{
+  width: 100%;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.onas p{
+  font-size: 12px;
+  font-weight: 600;
+  color: #C4C4C4;
+}
+.towas{
+  display: flex;
+}
+.towas p{
+  color: #FF6F30;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.towas .images{
+   display: flex;
+}
+.first_second{
+  padding-top: 200px;
+  width: 40%;
+}
+.first_second h1{
+    font-weight: 900;
+    font-size: 32px;
+    color: black ;
+    margin-bottom: 20px;
+}
+.first_second p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.first_second button{
+  padding: 13px 40px;
+  background: rgba(255, 111, 48, 0.2);
+  border: transparent;
+  color: #FF6F30;
+  font-size: 20px;
+}
+@media(max-width:892px){
+  section.first{
+       flex-direction: column-reverse;
+  }
+  .first_first,.first_second{
+    width: 100%;
+  }
+  .first_second{
+    padding-top: 100px;
+  }
+  .first_first{
+    flex-direction: column;
+  }
+  .box_first,.box_second{
+    width: 100%;
+  }
+  
+}
 @media(max-width:768px){
   .last_head{
     flex-direction: column;
