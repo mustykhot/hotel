@@ -223,6 +223,35 @@ section.first{
   color: #FF6F30;
   font-size: 20px;
 }
+/* Second section */
+section.second{
+  
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding-left: 10%;
+
+
+}
+.second_first{
+  width: 50%;
+}
+.second_second{
+  width: 45%;
+}
+.second_second img{
+  width: 100%;
+}
+.contento{
+  width: 80%;
+  margin: auto;
+}
+.contento h1{
+  font-weight: 900;
+  font-size: 33px;
+  color: #000000;
+}
 @media(max-width:892px){
   section.first{
        flex-direction: column-reverse;
@@ -242,6 +271,27 @@ section.first{
   
 }
 @media(max-width:768px){
+  section.second{
+  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 70px;
+    padding-left: 0;
+  
+  
+  }
+  .second_first,.second_second{
+    width: 90%;
+    margin: auto;
+  }
+  /* .contento{
+    width: 100%;
+  } */
+  .contento h1{
+    font-size: 20px;
+  }
   .last_head{
     flex-direction: column;
     width: 100%;
